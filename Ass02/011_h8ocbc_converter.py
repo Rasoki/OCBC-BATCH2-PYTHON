@@ -1,6 +1,6 @@
-def konversi (c):
+def konversi (celcius):
     '''Function to conversion celcius to kelvin and otherwise'''
-    kelvin = c + 273.15
+    kelvin = celcius + 273.15
     celcius = kelvin  - 273.15 
 
     print(f"{kelvin} Kelvin")
